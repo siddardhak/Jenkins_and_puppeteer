@@ -1,7 +1,7 @@
 
 describe('Google', () => {
   beforeAll(async () => {
-    jest.setTimeout(30000);
+    jest.setTimeout(10000);
     await page.goto('https://www.urbanlifesavers.org.au/');
     
   });
