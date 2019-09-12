@@ -7,8 +7,8 @@ describe('Google', () => {
   });
 
   it('Urban Life Savers match', async () => {
-    jest.setTimeout(10000);
-    await page.waitFor(9000);
+    jest.setTimeout(30000);
+    await page.waitFor(5000);
     await expect(page).toMatch('NO MORE DEATHS FROM CARDIAC ARREST');
   });
 });
